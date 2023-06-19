@@ -12,7 +12,7 @@ header {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: rgb(4, 11, 20);
+    background: #171e2c;
     overflow-y: auto;
 }
 
@@ -20,7 +20,7 @@ header {
     font-size: 18px;
     display: inline-block;
     background: #212431;
-    color: #fff;
+    color: #F1F6F9;
     line-height: 1;
     padding: 8px 0;
     border-radius: 50%;
@@ -31,7 +31,7 @@ header {
 }
 
 .facebook:hover, .instagram:hover{
-    background-color: #363d5c;
+    background-color: #212A3E;
 }
 
 .redes{
@@ -50,7 +50,7 @@ header {
 }
 
 .nombre{
-    color: #fff;
+    color: #F1F6F9;
     text-align: center;
     font-size: 30px;
 }   
@@ -59,9 +59,15 @@ header {
     width: 50%;
     height: auto;
     border-radius: 50%;
-    border: 5px solid #363d5c;
+    border: 5px solid #9BA4B5;
     margin-top: 10%;
     margin-left: 25%; 
+}
+
+.leng-img{
+  width: 3%;
+  height: auto;
+  position: fixed;
 }
 
 .nav-menu {
@@ -86,20 +92,25 @@ header {
     text-decoration: none;
 }
 
-.nav-menu img{
+.ico-trad{
+  padding-left: 30%;
+  padding-top: 30%;
+}
+
+.img-circ{
     margin-right: 5%;
 }
 
 .nav-menu a i {
     font-size: 24px;
     padding-right: 8px;
-    color: #6f7180;
+    color: #9BA4B5;
 }
 
 
 
 h4:hover{
-    text-decoration: underline #00adfd;
+    text-decoration: underline #394867;
 }
 
 }
@@ -127,24 +138,18 @@ h4:hover{
     .portada h1 {
         margin: 0 0 10px 0;
         font-size: 60px;
-        color: #fff;
+        color: #F1F6F9;
     }
 
     
     .portada p {
-        color: #fff;
+        color: #F1F6F9;
         margin-bottom: 50px;
         font-size: 26px;
         font-family: "Poppins", sans-serif;
     }
     
-    .portada p span {
-        color: #fff;
-        padding-bottom: 4px;
-        letter-spacing: 1px;
-        border-bottom: 3px solid #00adfd;
-    }
-    
+
     @media (min-width: 1024px) {
         .portada {
             background-attachment: fixed;
@@ -169,9 +174,7 @@ h4:hover{
   /*--------------------Sobre MI---------------------*/
   @media screen {
     
-  .info-content span {
-    color: rgb(13, 35, 63);
-  }
+
   
   .download-cv {
     padding: 10px 20px;
@@ -248,8 +251,8 @@ h4:hover{
     padding: 1rem;
     width: 100%;
     text-align: center;
-    color: whitesmoke;
-    background-color: whitesmoke;
+    color: #F1F6F9;
+    background-color: #F1F6F9;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
   }
   @media (min-width: 600px) {
@@ -313,6 +316,7 @@ h4:hover{
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.2;
+    
   }
   
   .copy {
@@ -330,17 +334,14 @@ h4:hover{
     font-weight: bold;
     letter-spacing: 0.025rem;
     text-transform: uppercase;
-    color: white;
+    color: #F1F6F9;
     background-color: black;
     border: none;
   }
   .btn:hover {
     background-color: #0d0d0d;
   }
-  .btn:focus {
-    outline: 1px dashed yellow;
-    outline-offset: 3px;
-  }
+
   
   @media (hover: hover) and (min-width: 600px) {
     .card:after {
@@ -394,8 +395,8 @@ h4:hover{
     
 /*:::::Pie de Pagina*/
 .pie-pagina{
-    width: 80%;
-    background-color: #0a141d;
+    width: 81%;
+    background-color: #212A3E;
     float: right;
     margin-top: 10%;
 }
@@ -419,12 +420,12 @@ h4:hover{
     width: 250px;
 }
 .pie-pagina .grupo-1 .box h2{
-    color: #fff;
+    color: #F1F6F9;
     margin-bottom: 25px;
     font-size: 20px;
 }
 .pie-pagina .grupo-1 .box p{
-    color: #efefef;
+    color: #F1F6F9;
     margin-bottom: 10px;
 }
 .pie-pagina .grupo-1 .red-social a{
@@ -433,9 +434,9 @@ h4:hover{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: #F1F6F9;
     margin-right: 10px;
-    background-color: #0d2033;
+    background-color: #212A3E;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -443,10 +444,10 @@ h4:hover{
     color: aqua;
 }
 .pie-pagina .grupo-2{
-    background-color: #0a1a2a;
+    background-color: #212A3E;
     padding: 15px 10px;
     text-align: center;
-    color: #fff;
+    color: #F1F6F9;
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
